@@ -2,17 +2,33 @@ body{
     background-color: rgb(223, 209, 196);
 }
 div.start{
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
     background-color: rgb(245, 188, 161);
     margin:0 px;
 }
-
+div.zero{
+    display: flex;
+    justify-content: left;
+}
+span{
+    font-size:25px;
+    color: rgb(119, 100, 71);
+}
+nav{
+    color: rgb(119, 100, 71);
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 0px;
+}
 div.main{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 div.one{
-    padding: 10px;
+    padding: 100px;
 }
 div.two{
     padding: 10px;
