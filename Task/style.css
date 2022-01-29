@@ -1,6 +1,9 @@
 body{
     background-color: rgb(223, 209, 196);
 }
+a{
+    text-decoration: none;
+}
 div.start{
     display: flex;
     justify-content: space-between;
@@ -16,16 +19,15 @@ span.a{
     font-size:25px;
     color: rgb(119, 100, 71);
 }
+div.price{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    padding: 5px 40px 0px 180px;
+}
+span.price{
+    font-family: 'Open Sans', sans-serif;
+}
 
-span.b{
-    color: saddlebrown;
-    font-weight: bold;
-    background-color:  rgb(245, 188, 161);
-}
-span.b:hover{
-    color: rgb(245, 188, 161);
-    background-color: saddlebrown;
-}
 
 nav{
     color: rgb(119, 100, 71);
@@ -33,6 +35,7 @@ nav{
     padding: 10px;
     padding-left: 50px;
     padding-right: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 div.main{
     display: grid;
@@ -59,4 +62,38 @@ h1{
 }
 h4{
     color: saddlebrown;
+}
+
+
+div.buy{
+    display: flex;
+    justify-content: left;
+    padding: 0px 3px 0px px;
+}
+a.cart{
+    color: saddlebrown;
+    font-weight: bold;
+    background-color:  rgb(245, 188, 161);
+    padding: 0px 60px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.cart:hover{
+    background-color: saddlebrown;
+}
+a.buy:hover{
+    background-color: saddlebrown;
+}
+nav.cb:hover{
+    color: rgb(245, 188, 161);
+}
+a.buy{
+    color: saddlebrown;
+    font-weight: bold;
+    background-color:  rgb(245, 188, 161);
+    padding: 0px 60px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
