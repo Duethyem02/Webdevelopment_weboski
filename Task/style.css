@@ -12,10 +12,21 @@ div.zero{
     display: flex;
     justify-content: left;
 }
-span{
+span.a{
     font-size:25px;
     color: rgb(119, 100, 71);
 }
+
+span.b{
+    color: saddlebrown;
+    font-weight: bold;
+    background-color:  rgb(245, 188, 161);
+}
+span.b:hover{
+    color: rgb(245, 188, 161);
+    background-color: saddlebrown;
+}
+
 nav{
     color: rgb(119, 100, 71);
     font-size: 20px;
